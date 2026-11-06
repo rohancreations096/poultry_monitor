@@ -1,0 +1,40 @@
+{
+  "best_params": {
+    "criterion": "entropy",
+    "max_depth": 3,
+    "min_samples_leaf": 40
+  },
+  "cv_f1_mean": 0.6736,
+  "test_accuracy": 0.9162,
+  "test_precision": 0.6307,
+  "test_recall": 0.8284,
+  "test_f1": 0.7161,
+  "test_roc_auc": 0.9128,
+  "n_train": 3150,
+  "n_test": 1050,
+  "n_train_flocks": 45,
+  "n_test_flocks": 15,
+  "test_positive_rate": 0.1276,
+  "confusion_matrix": [
+    [
+      851,
+      65
+    ],
+    [
+      23,
+      111
+    ]
+  ],
+  "baselines": {
+    "majority_class_accuracy": 0.8724,
+    "logreg_f1": 0.7161,
+    "logreg_recall": 0.8284
+  },
+  "feature_importance": {
+    "droppings_3d_avg": 0.8552,
+    "feed_change_3d": 0.047,
+    "mortality_pct": 0.0447,
+    "ammonia_ppm": 0.0307,
+    "cough_3d_avg": 0.0224
+  }
+}
